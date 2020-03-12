@@ -1,0 +1,20 @@
+Final project for Henry James C Oliver (UT EID: hjo254)
+Enjoy.
+
+Write-up is in project_report_hjo254.pdf
+
+General headers are in begin.h
+Person class is in Person.h
+Population class is in Population.h
+
+To compile the single patient code (Joe.cc):
+icpc -o Joe Joe.cc
+
+To compile the code with population implemented, but no contagion (pop.cc):
+icpc -o pop pop.cc
+
+To compile the code with contagion and vaccination (contagion.cc):
+icpc -o contagion contagion.cc
+
+To compile the most realistic version with random interactions (spread.cc):
+icpc -o spread spread.cc

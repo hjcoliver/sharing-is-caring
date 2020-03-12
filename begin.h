@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+#include <random>
+#include <vector>
+#include <iomanip>
+#include <fstream>
+#include <sstream>
+using std::ofstream;
+using std::string;
+using std::to_string;
+using std::setw;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::vector;
