@@ -1,20 +1,27 @@
 Final project for SDS 392 at the University of Texas at Austin
-Enjoy.
-
 Write-up is in project_report_hjo254.pdf
+Enjoy.
 
 General headers are in begin.h
 Person class is in Person.h
 Population class is in Population.h
 
-To compile the single patient code (Joe.cc):
+---Standard compilation commands---
+- To compile the single patient code (Joe.cc):
+g++ -std=c++11 -o Joe Joe.cc
+- To compile the code with population implemented, but no contagion (pop.cc):
+g++ -std=c++11 -o pop pop.cc
+- To compile the code with contagion and vaccination (contagion.cc):
+g++ -std=c++11 -o contagion contagion.cc
+- To compile the most realistic version with random interactions (spread.cc):
+g++ -std=c++11 -o spread spread.cc
+
+---TACC compilations commands---
+- To compile the single patient code (Joe.cc):
 icpc -o Joe Joe.cc
-
-To compile the code with population implemented, but no contagion (pop.cc):
+- To compile the code with population implemented, but no contagion (pop.cc):
 icpc -o pop pop.cc
-
-To compile the code with contagion and vaccination (contagion.cc):
+- To compile the code with contagion and vaccination (contagion.cc):
 icpc -o contagion contagion.cc
-
-To compile the most realistic version with random interactions (spread.cc):
+- To compile the most realistic version with random interactions (spread.cc):
 icpc -o spread spread.cc
